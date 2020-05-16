@@ -256,6 +256,7 @@ export const DraggableGrid = function<DataType extends IBaseItemType>(
       Animated.timing(dragStartAnimatedValue, {
         toValue: 1.1,
         duration: 100,
+        useNativeDriver: false
       }).start()
     }
   }
