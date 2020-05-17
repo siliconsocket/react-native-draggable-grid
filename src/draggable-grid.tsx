@@ -225,6 +225,7 @@ export const DraggableGrid = function<DataType extends IBaseItemType>(
     items[itemIndex].currentPosition.flattenOffset()
     Animated.timing(items[itemIndex].currentPosition, {
       toValue: blockPositions[orderMap[itemKey].order],
+      useNativeDriver: false,
       duration: 200,
     }).start()
   }
