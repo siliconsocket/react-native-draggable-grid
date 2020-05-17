@@ -7,11 +7,11 @@
   ],
   "version": "2.0.0",
   "description": "A draggable grid for react native",
-  "main": "built/src/index.js",
+  "main": "src/index.ts",
   "types": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SHISME/react-native-draggable-grid"
+    "url": "https://github.com/siliconsocket/react-native-draggable-grid"
   },
   "scripts": {
     "built": "rm -rf built && tsc",
